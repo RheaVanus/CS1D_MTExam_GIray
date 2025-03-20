@@ -8,11 +8,11 @@ until they guess correctly.
 
 For each guess, log whether the guess is too high, too low, or correct.
 */
-let favNum = 9;
+let theFavNumber = 9;
 let guessNum = parseInt(prompt("Guess your fave number!"))
 
-while (guessNum !== favNum){
-    if (guessNum > favNum) {
+while (guessNum !== theFavNumber){
+    if (guessNum >  theFavNumber) {
         console.log("Too High")
     }else{
         console.log("Too Low!")
